@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MonkeysApp.MonkeyDetailsPage" Title="{Binding Name}">
+    <ContentPage.Content>
+        <StackLayout x:Name="stck" BackgroundColor="GreenYellow">
+
+            <Image Source="{Binding ImageUrl}" HorizontalOptions="FillAndExpand" Aspect="AspectFit" Scale="1.35"  Margin="20"></Image>
+            <StackLayout>
+                <Label Text="{Binding Location}"  HorizontalOptions="CenterAndExpand" FontSize="15">         
+                </Label>
+                <Label Text="{Binding Details}" HorizontalOptions="CenterAndExpand" FontSize="25"></Label>
+            </StackLayout>
+            <Switch IsToggled="{Binding IsFavorite}" IsEnabled="false" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
