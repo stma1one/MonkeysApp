@@ -36,10 +36,13 @@ namespace MonkeysApp
                 ImageButton btn = new ImageButton { Source = m.ImageUrl, Aspect = Aspect.AspectFit };
                 btn.Clicked += Btn_Clicked;
                 btn.BindingContext = m;
+                btn.WidthRequest = 400;
+                btn.HeightRequest = 50;
                 
-                ((StackLayout)Content).Children.Add(
+                  ((StackLayout)Content).Children.Add(
                     new StackLayout
                     {
+                        
                         Children = {
                             new Label
                             {

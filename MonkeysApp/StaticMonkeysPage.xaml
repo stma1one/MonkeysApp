@@ -8,11 +8,11 @@
             <Label Text="Welcome to Monkey Static List!"
                 VerticalOptions="StartAndExpand"
                 HorizontalOptions="CenterAndExpand" />
-            <ImageButton x:Name="Img1" Aspect="AspectFit" Source="{Binding ImageUrl}" HorizontalOptions="CenterAndExpand" Clicked="Img_Clicked"></ImageButton>
+            <ImageButton x:Name="Img1" Aspect="AspectFit" WidthRequest="400" HeightRequest="80" Source="{Binding ImageUrl}" HorizontalOptions="CenterAndExpand" Clicked="Img_Clicked"></ImageButton>
             <BoxView BackgroundColor="DarkGray" HorizontalOptions="FillAndExpand"> </BoxView>
-            <ImageButton x:Name="Img2" Aspect="AspectFit"  Source="{Binding ImageUrl}" HorizontalOptions="CenterAndExpand" Clicked="Img_Clicked"></ImageButton>
+            <ImageButton x:Name="Img2" Aspect="AspectFit" WidthRequest="400" HeightRequest="80"  Source="{Binding ImageUrl}" HorizontalOptions="CenterAndExpand" Clicked="Img_Clicked"></ImageButton>
             <BoxView BackgroundColor="DarkGray" HorizontalOptions="FillAndExpand"></BoxView>
-            <ImageButton x:Name="Img3" Aspect="AspectFit"  Source="{Binding ImageUrl}" HorizontalOptions="CenterAndExpand" Clicked="Img_Clicked"></ImageButton>
+            <ImageButton x:Name="Img3" Aspect="AspectFit" WidthRequest="400" HeightRequest="80"  Source="{Binding ImageUrl}" HorizontalOptions="CenterAndExpand" Clicked="Img_Clicked"></ImageButton>
             <BoxView BackgroundColor="DarkGray" HorizontalOptions="FillAndExpand"></BoxView>
         </StackLayout>
     </ContentPage.Content>

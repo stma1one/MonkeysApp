@@ -4,10 +4,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.31019.35
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonkeysApp.UWP", "MonkeysApp.UWP\MonkeysApp.UWP.csproj", "{F136CA2C-739A-4348-95BF-32EC8A33E9C1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3869B6C5-D908-45F7-B88E-0643E6E36430} = {3869B6C5-D908-45F7-B88E-0643E6E36430}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonkeysApp.Android", "MonkeysApp.Android\MonkeysApp.Android.csproj", "{3869B6C5-D908-45F7-B88E-0643E6E36430}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonkeysApp", "MonkeysApp\MonkeysApp.csproj", "{FCFE3881-E678-4824-9861-C8F0103C05B5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MonkeysApp", "MonkeysApp\MonkeysApp.csproj", "{FCFE3881-E678-4824-9861-C8F0103C05B5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
